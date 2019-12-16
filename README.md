@@ -1,11 +1,10 @@
-# React: Lab 3
-## Pursuit Tube 
+# React Youtube 
 
 ### Task
-- You will create a Single Page Application (SPA) that mimics the offical Youtube webapp
-- You will use the official `Youtube Data API v3`
+- Create a Single Page Application (SPA) that mimics the offical Youtube webapp
+- Use the official `Youtube Data API v3`
   - `https://developers.google.com/youtube/v3/docs/`
-- Your app must make use of `React Router v4`
+- Your app must make use of `React Router`
 - Your app may NOT use any other dependencies other than the following:
   - [Axios](https://www.npmjs.com/package/axios)
   - [Moment](https://momentjs.com/)
@@ -13,8 +12,7 @@
   - [Bootstrap](https://getbootstrap.com/)
     - Or equivalent UI frameworks like SemanticUI / Reactstrap
   - Create-React-App ... **obviously**
-  - Using any thing else will mean your Lab is incomplete
-- Your app **MUST** make use of LocalStorage to implement some of the features
+- Bonus: Make use of LocalStorage to implement some of the features
 
 ### Required Featues
 
@@ -71,7 +69,7 @@
   - Time it was posted relative to now. (Use Moment.js)
 - Clicking on the video takes you to that video's page
 - SHOW MORE button to load the next result of search, load 10 more
-- **Infinite Scroll is optional, but would be really cool right? ;)**
+- Bonus: Infinite Scroll
 
 #### User List / Editor: `/user`
 
